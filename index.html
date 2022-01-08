@@ -37,22 +37,33 @@
                             <input type="checkbox" id="repeat">
                             <label for="repeat"></label>
                         </div>
-                        <label for="taskDate">Data da tarefa:</label>
-                        <input type="date" id="taskDate" name="taskDate" min="">
-                        <label for="diaSelected">Dia:</label>
-                        <select id="diaSelected">
-                            <option value=7>Sábado</option>
-                            <option value=1>Domingo</option>
-                            <option value=2>Segunda</option>
-                            <option value=3>Terça</option>
-                            <option value=4>Quarta</option>
-                            <option value=5>Quinta</option>
-                            <option value=6>Sexta</option>
-                        </select>
+                        <div class="repeatDate">
+                            <div class="toggleVis">
+                                <div class="inpu">
+
+                                    <label for="taskDate" class="taskDate">Data da tarefa:</label>
+                                    <input type="date" id="taskDate" name="taskDate" min="">
+                                </div>
+                            </div>
+                            <div class="toggleVis vis">
+                                <div class="inpu">
+
+                                    <label for="diaSelected">Dia:</label>
+                                    <select id="diaSelected">
+                                    <option value=7>Sábado</option>
+                                    <option value=1>Domingo</option>
+                                    <option value=2>Segunda</option>
+                                    <option value=3>Terça</option>
+                                    <option value=4>Quarta</option>
+                                    <option value=5>Quinta</option>
+                                    <option value=6>Sexta</option>
+                                </select>
+                            </div>
+                            </div>
+                        </div>
                     </form>
                     <div class="addTask">
                         <i class="fas fa-plus-circle buttonAdd"></i>
-                
                     </div>
                 </div>
             </button>

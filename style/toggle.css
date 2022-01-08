@@ -10,7 +10,6 @@
 }
 
 .switch-toggle input[type="checkbox"] + label {
-    transform: translateY(30%);
     position: relative;
     display: inline-block;
     background: rgb(255, 255, 255);
