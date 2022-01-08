@@ -111,6 +111,7 @@ body {
 
 .addInput form input {
     margin-left: 20px;
+    font-size: 18px;
     border: 0;
     border-bottom: 1px solid black;
     outline: 0;
@@ -215,10 +216,14 @@ body {
     height: 10vh;
     color: #5c5470;
     font-size: 16px;
-    border-bottom: 1px solid #5c5470;
+    border-bottom: 2px solid #5c5470;
     display: block;
+    transition: .5s ease;
 }
 .day .task p{
+    margin-top: 15px;
     margin-left: 8px;
 }
-
+.day .task:hover{
+    padding: 10px 0px;
+}

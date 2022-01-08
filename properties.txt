@@ -1,7 +1,0 @@
-Domingo{}
-Segunda{}
-Terça{}
-Quart{}
-Quinta{}
-Sexta{}
-Sábado{}
